@@ -134,7 +134,31 @@ main {
   font-size: 25px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 1220px) {
+  .s2 img {
+    height: 40%;
+    float: right;
+    align-self: flex-end;
+    padding: 50px 200px 0px 0px;
+    width: 50%;
+  }
+
+  main {
+    font-size: 96px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
   main {
     font-size: 40px;
     justify-content: center;
@@ -154,9 +178,17 @@ main {
     padding-bottom: 20px;
   }
 
+  .s2 {
+    align-items: center;
+    justify-content: center;
+  }
+
   .s2 img {
-    width: auto;
-    padding: 62px 0px;
+    padding: 50px 0px 50px 10px;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
   }
   .s2 p {
     font-size: 18px;
